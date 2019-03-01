@@ -18,6 +18,7 @@ class BlockChain:
         newBlock.generatehash
         proof = self.proofOfWork(newBlock)
         self.chain.append(newBlock)
+        return proof, newBlock
     
     def printBlocks (self):
         for i in range(len(self.chain)):

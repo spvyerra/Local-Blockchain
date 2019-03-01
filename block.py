@@ -20,4 +20,3 @@ class Block:
         print("transactions: " , self.transactions)
         print("current hash: ", self.generatehash)
         print("previous hash: ", self.previous_hash)
-
